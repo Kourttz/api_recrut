@@ -79,7 +79,7 @@ api_recrutamento/
 <!-- end list -->
 
 ```bash
-git clone http://172.32.1.71/gitlab/workforce/api_recrutamento.git
+git clone https://github.com/gitlab/workforce/api_recrut.git
 ```
 
 2.  Instale as dependências
@@ -97,12 +97,12 @@ npm install
 ```env
     PORT=3000
     DATABASE_HOST=localhost
-    DATABASE_PORT=5432
-    DATABASE_USER=postgres
+    DATABASE_PORT=1111
+    DATABASE_USER=user
     DATABASE_PASSWORD=senha
     DATABASE_NAME=recrutamento_db
     # Configuração Kafka
-    KAFKA_BROKERS=kafka:29092
+    KAFKA_BROKERS=kafka:1111
     KAFKA_GROUP_ID=recrutamento-consumer
 ```
 
