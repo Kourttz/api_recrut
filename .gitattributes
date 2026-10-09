@@ -1,0 +1,10 @@
+# Força LF em scripts
+*.sh text eol=lf
+
+# Mantém arquivos YAML também sempre com LF
+*.yml text eol=lf
+
+# Código-fonte em linguagens normais também com LF
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
